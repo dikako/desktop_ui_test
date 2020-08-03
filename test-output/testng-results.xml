@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="370644" started-at="2020-08-03T02:58:09Z" finished-at="2020-08-03T03:04:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="370644" started-at="2020-08-03T02:58:09Z" finished-at="2020-08-03T03:04:20Z">
+      <class name="testcases.Test_Login">
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.Test_Login@7e985ce9]" name="set" is-config="true" duration-ms="22464" started-at="2020-08-03T09:58:11Z" finished-at="2020-08-03T09:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="login_test_username_alert(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.Test_Login@7e985ce9]" name="login_test_username_alert" duration-ms="38183" started-at="2020-08-03T09:58:33Z" data-provider="login_username_alert" finished-at="2020-08-03T09:59:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dikakoko.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordslah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please Try Again Email Is Incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_username_alert -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.Test_Login@7e985ce9]" name="done" is-config="true" duration-ms="14207" started-at="2020-08-03T09:59:11Z" finished-at="2020-08-03T09:59:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_test_username_alert status=SUCCESS method=Test_Login.login_test_username_alert(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.Test_Login@7e985ce9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.Test_Login@7e985ce9]" name="set" is-config="true" duration-ms="5985" started-at="2020-08-03T09:59:26Z" finished-at="2020-08-03T09:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="login_test_username_alert(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.Test_Login@7e985ce9]" name="login_test_username_alert" duration-ms="36903" started-at="2020-08-03T09:59:32Z" data-provider="login_username_alert" finished-at="2020-08-03T10:00:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8767868768768]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordslah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please Try Again Phone Number Is Incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_username_alert -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.Test_Login@7e985ce9]" name="done" is-config="true" duration-ms="12447" started-at="2020-08-03T10:00:09Z" finished-at="2020-08-03T10:00:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_test_username_alert status=SUCCESS method=Test_Login.login_test_username_alert(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.Test_Login@7e985ce9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.Test_Login@7e985ce9]" name="set" is-config="true" duration-ms="5146" started-at="2020-08-03T10:00:21Z" finished-at="2020-08-03T10:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="login_test_password_alert(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.Test_Login@7e985ce9]" name="login_test_password_alert" duration-ms="36227" started-at="2020-08-03T10:00:26Z" data-provider="login_password_alert" finished-at="2020-08-03T10:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dikakoko04@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordslah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please Try Again Password Is Incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_password_alert -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.Test_Login@7e985ce9]" name="done" is-config="true" duration-ms="22479" started-at="2020-08-03T10:01:03Z" finished-at="2020-08-03T10:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_test_password_alert status=SUCCESS method=Test_Login.login_test_password_alert(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.Test_Login@7e985ce9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.Test_Login@7e985ce9]" name="set" is-config="true" duration-ms="8166" started-at="2020-08-03T10:01:25Z" finished-at="2020-08-03T10:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="login_test_password_alert(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.Test_Login@7e985ce9]" name="login_test_password_alert" duration-ms="37328" started-at="2020-08-03T10:01:33Z" data-provider="login_password_alert" finished-at="2020-08-03T10:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[082278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordslah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please Try Again Password Is Incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_password_alert -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.Test_Login@7e985ce9]" name="done" is-config="true" duration-ms="15076" started-at="2020-08-03T10:02:11Z" finished-at="2020-08-03T10:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_test_password_alert status=SUCCESS method=Test_Login.login_test_password_alert(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.Test_Login@7e985ce9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.Test_Login@7e985ce9]" name="set" is-config="true" duration-ms="5980" started-at="2020-08-03T10:02:26Z" finished-at="2020-08-03T10:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="FAIL" signature="login_test_popup_alert(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.Test_Login@7e985ce9]" name="login_test_popup_alert" duration-ms="33045" started-at="2020-08-03T10:02:32Z" data-provider="login_popup_alert" finished-at="2020-08-03T10:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dixosgadpoyt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordslah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User has not been registered]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [userhasnotbeenregistered] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [userhasnotbeenregistered] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at object.Alert.byClass(Alert.java:36)
+	at testcases.Test_Login.login_test_popup_alert(Test_Login.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_popup_alert -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.Test_Login@7e985ce9]" name="done" is-config="true" duration-ms="16137" started-at="2020-08-03T10:03:05Z" finished-at="2020-08-03T10:03:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_test_popup_alert status=FAILURE method=Test_Login.login_test_popup_alert(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.Test_Login@7e985ce9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.Test_Login@7e985ce9]" name="set" is-config="true" duration-ms="7749" started-at="2020-08-03T10:03:21Z" finished-at="2020-08-03T10:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="FAIL" signature="login_test_popup_alert(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.Test_Login@7e985ce9]" name="login_test_popup_alert" duration-ms="34463" started-at="2020-08-03T10:03:29Z" data-provider="login_popup_alert" finished-at="2020-08-03T10:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[82290987765]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordslah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User has not been registered]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [userhasnotbeenregistered] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [userhasnotbeenregistered] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at object.Alert.byClass(Alert.java:36)
+	at testcases.Test_Login.login_test_popup_alert(Test_Login.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_popup_alert -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.Test_Login@7e985ce9]" name="done" is-config="true" duration-ms="16247" started-at="2020-08-03T10:04:03Z" finished-at="2020-08-03T10:04:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_test_popup_alert status=FAILURE method=Test_Login.login_test_popup_alert(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.Test_Login@7e985ce9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+      </class> <!-- testcases.Test_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
